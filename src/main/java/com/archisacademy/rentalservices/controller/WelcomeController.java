@@ -11,4 +11,8 @@ public class WelcomeController {
         return "hello from archis";
     }
 
+    @GetMapping(value = "/welcome")
+    public String helloToTriaining() {
+        return "hello to training";
+    }
 }
